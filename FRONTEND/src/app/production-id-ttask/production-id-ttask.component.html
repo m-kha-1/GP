@@ -1,0 +1,10 @@
+<div *ngIf="task">
+    <div *ngFor="let singleTask of task.tasks">
+      <h2>{{ singleTask.name }}</h2>
+      <p>Type: {{ singleTask.type }}</p>
+      <p>Date de création: {{ singleTask.dateCreated }}</p>
+      <p>Date d'échéance: {{ singleTask.dateDue }}</p>
+      <!-- Autres propriétés de la tâche -->
+    </div>
+  </div>
+  

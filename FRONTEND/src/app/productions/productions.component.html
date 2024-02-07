@@ -1,0 +1,28 @@
+<header>
+    <div>
+        <h1>PRODUCTIONS</h1>
+    <!-- <button>ADD</button> -->
+         <button [routerLink]="['/add']" ><h2>ADD</h2></button>
+        <!-- <a [routerLink]="['/add']"  ><div id="addlien">ADD</div></a>   -->
+    </div>
+
+    
+</header>
+<main>
+<div class="card" >
+<app-production *ngFor="let p of productions" (monevenement)="onEventClick($event)" [production]="p"></app-production>
+<!-- <app-production-id-ttask *ngFor="let t of tasks" [task]="t"></app-production-id-ttask> -->
+
+</div>
+</main>
+
+<div id="s">
+    <!-- <app-production-id-ttask *ngFor="let t of tasks" [task]="t"></app-production-id-ttask> -->
+
+</div>
+
+
+
+
+<!-- *ngFor="let t of tasks"  [task]="t" -->
+

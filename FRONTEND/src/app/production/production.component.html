@@ -1,0 +1,10 @@
+<!-- <p class="p">{{production | json}}</p> -->
+<!-- <p>{{production_client}}</p> -->
+
+<p *ngIf="production != null" class="p" (click)="onClick()" [routerLink]="['/productionsIdTasks']"   >Name : {{production.name}} Client : {{production.client}}</p>
+
+
+
+<!-- [routerLink]="['/new']" -->
+
+<!-- [routerLink]="['/productionsIdTasks']"  -->

@@ -1,0 +1,27 @@
+header{background-color: rgb(55, 146, 224);
+  padding:18px;}
+
+
+.cards{display: flex;}
+
+
+
+.card{
+    
+    flex-wrap: wrap; 
+    padding:10px;
+    margin:5px;
+    border-width:  2px  ;
+    border-color: rgb(39, 30, 18);
+    border-style: solid;
+
+    background-color: rgb(247, 247, 232459);
+    display: flex;
+    flex-wrap: wrap; 
+    
+}
+
+h1{color:blanchedalmond;
+  font-size: 300%;}
+  
+  h3 {color :rgb(27, 27, 27)}

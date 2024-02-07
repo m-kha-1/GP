@@ -1,0 +1,51 @@
+header {
+    background-color: rgb(55, 146, 224);
+    display: flex;
+    padding: 18px;
+}
+
+.card {
+    background-color: rgb(255, 255, 255);
+
+
+}
+
+/* #s{background-color: rgb(91, 213, 235);
+    display: flex;
+    flex-wrap: wrap; 
+    padding:1800px;} */
+
+h1 {
+    color: blanchedalmond;
+    font-size: 300%;
+}
+
+h2 {
+    color: blanchedalmond;
+    font-size: 150%;
+}
+
+/* 
+display: flex;
+flex-wrap: wrap;  */
+
+#addlien {
+    color: beige;
+    border-style: solid;
+    padding: 10px;
+    border-color: beige;
+}
+
+
+button {
+    background-color: #220ddd;
+    color: white;
+    padding: 20px 137px;
+    border: none;
+    cursor: pointer;
+    float: right;
+}
+
+button:hover {
+    background-color: #040d5e;
+}
